@@ -5,5 +5,34 @@ public class mylinkedlist
     private Llist head,tail;
     private int size;
 
+    public Llist getHead() {
+        return head;
+    }
+
+    public void setHead(Llist head) {
+        this.head = head;
+    }
+
+    public Llist getTail() {
+        return tail;
+    }
+
+    public void setTail(Llist tail) {
+        this.tail = tail;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public mylinkedlist()
+    {
+        this.head=null;
+        this.tail=null;
+    }
 
 }
