@@ -33,6 +33,7 @@ public class mylinkedlist
     {
         this.head=null;
         this.tail=null;
+        this.size=0;
     }
 
 }
