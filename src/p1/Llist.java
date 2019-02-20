@@ -30,4 +30,13 @@ public class Llist
         this.data = data;
         this.next = next;
     }
+    public Llist()
+    {
+        this.data=0;
+        this.next=null;
+    }
+    public Llist(int data)
+    {
+        this.data=data;
+    }
 }
