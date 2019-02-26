@@ -1,7 +1,9 @@
 package p1;
 
-public class Singlelinkedlist {
-    private class Node {
+public class Singlelinkedlist
+{
+    private class Node
+    {
         private int data;
         private Node next;
 
@@ -36,5 +38,24 @@ public class Singlelinkedlist {
             this.data = data;
             this.next=null;
         }
+    }
+
+    private Node head=null;
+    private int size=0;
+
+    @Override
+    public String toString()
+    {
+        StringBuilder response= new StringBuilder();
+        response.append("[");
+        response.append("]");
+        return response.toString();
+    }
+
+    public static void main(String[] args)
+    {
+        Singlelinkedlist linkedlist=new Singlelinkedlist();
+        System.out.println(linkedlist);
+
     }
 }
