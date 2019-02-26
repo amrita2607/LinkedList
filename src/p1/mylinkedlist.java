@@ -36,6 +36,11 @@ public class mylinkedlist
         this.size=0;
     }
 
+    public void display(mylinkedlist ob)
+    {
+
+    }
+
     public static void main(String[] args)
     {
         mylinkedlist l=new mylinkedlist();
